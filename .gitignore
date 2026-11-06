@@ -1,0 +1,7 @@
+.env
+chroma_db/
+qdrant_db/
+__pycache__/
+.venv/
+venv/
+.streamlit/

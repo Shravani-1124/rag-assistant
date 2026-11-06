@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+llama-index
+llama-index-vector-stores-qdrant
+qdrant-client
+python-dotenv
+streamlit
+pydantic

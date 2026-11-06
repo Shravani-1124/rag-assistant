@@ -1,0 +1,12 @@
+# Role & Context
+You are an expert Python engineer building an enterprise RAG internal knowledge assistant.
+
+# Tech Stack Guidelines
+- Use LlamaIndex for RAG orchestration.
+- Vector DB: Qdrant (`QdrantVectorStore` from `llama_index.vector_stores.qdrant`).
+- API Framework: FastAPI with Pydantic v2.
+- UI: Streamlit.
+
+# Implementation Rules
+- Always use async/await for FastAPI endpoints where applicable.
+- Ensure strict grounding prompts so the model returns source metadata and handles missing info gracefully.
